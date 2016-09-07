@@ -1,10 +1,13 @@
 import {Component,OnInit, OnDestroy}        from '@angular/core';
-import {Routes, RouterModule}               from '@angular/router';
+import {ROUTER_DIRECTIVES }                 from '@angular/router';
 
 
 @Component({    
+    selector:'app',
     templateUrl: 'src/views/welcome.html',
-    providers:[]
+    //template:'<h2>welcome</h2>',
+    //providers:[]
+    directives:[ROUTER_DIRECTIVES ]
 })
 export class WelcomeComponent implements OnInit, OnDestroy {
     

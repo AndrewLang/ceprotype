@@ -6,10 +6,10 @@ import { Routes, RouterModule }             from '@angular/router';
 import { Http, Headers,HTTP_PROVIDERS}      from '@angular/http';
 
 
-import {ErrorHandlingService}               from './services/ErrorHandlingService';
-import {DataService}                        from './services/DataService';
+import { ErrorHandlingService}              from './services/ErrorHandlingService';
+import { DataService}                       from './services/DataService';
 import { routing, appRoutingProviders }     from './app.routing';
-import {AppComponent}                       from './components/app.component';
+import { AppComponent}                      from './components/app.component';
 import { WelcomeComponent }                 from './components/welcome.component';
 
 
@@ -21,6 +21,6 @@ import { WelcomeComponent }                 from './components/welcome.component
 })
 export class AppModule { 
     constructor(){
-        console.log("start app module.");
+        
     }
 }
