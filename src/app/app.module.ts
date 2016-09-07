@@ -11,11 +11,11 @@ import { DataService}                       from './services/DataService';
 import { routing, appRoutingProviders }     from './app.routing';
 import { AppComponent}                      from './components/app.component';
 import { WelcomeComponent }                 from './components/welcome.component';
-
+import { SequenceEditorComponent }          from './components/sequence.editor.component';
 
 @NgModule({
     imports: [BrowserModule,FormsModule,RouterModule, routing],
-    declarations: [AppComponent,WelcomeComponent],
+    declarations: [AppComponent,WelcomeComponent, SequenceEditorComponent],
     providers:[ appRoutingProviders,DataService, ErrorHandlingService,HTTP_PROVIDERS ],
     bootstrap: [AppComponent]
 })
