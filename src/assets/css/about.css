@@ -26,15 +26,17 @@
     opacity: 1;
     transform: scale(1);
     transition: visibility 0s 0s linear, opacity .24s ease-out, transform .24s ease-out;
+    display: block;
 }
 
 .about-wrapper {
     margin: auto;
 }
 
-.about-header {    
+.about-header {
     padding: var(--about-space) 0;
     border-bottom: 1px solid hsl(0, 0%, 88%);
+    padding: 2rem;
 }
 
 .about-logo {
@@ -149,6 +151,7 @@ footer.about-section {
         padding: var(--about-space);
         border-right: 1px solid hsl(0, 0%, 88%);
         border-bottom: none;
+        max-width: 40%;
     }
     .about-wrapper {
         display: flex;
