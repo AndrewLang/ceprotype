@@ -7,9 +7,7 @@ import { InstrumentTreeComponent }      from "./instruments.tree.component";
     templateUrl: 'src/views/sequence.editor.html',
     directives:[ InstrumentTreeComponent ]
 })
-export class SequenceEditorComponent implements OnInit {
-
-    
+export class SequenceEditorComponent implements OnInit {    
 
     constructor() { }
 
