@@ -1,5 +1,4 @@
 import { Component, OnInit }            from '@angular/core';
-import {TreeComponent, TreeModel}       from 'ng2-tree';
 
 import { InstrumentTreeComponent }      from "./instruments.tree.component";
 
